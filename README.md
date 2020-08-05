@@ -9,7 +9,7 @@ committee hashing standard:
 https://docs.google.com/document/d/e/2PACX-1vQyd3Pc32tS7TjFsiLyjhYlOmqFl_UHPgrkowYIFONIaOYVjmNaiK5HkMIoLurkwP-qzKLLKUXtjU9s/pub
 
 Data has been signed using the oxford public key, available in the
-.sig/.gpg files.
+.sig/.gpg files. The public key is given by publickey.pub
 
 The source code to automatically sign and update your own repositories
 is available in the src/ folder
