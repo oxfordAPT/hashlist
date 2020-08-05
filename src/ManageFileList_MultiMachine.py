@@ -127,7 +127,7 @@ for machine in machines:
         gpg = gnupg.GPG()
         with open(APTExperimentsFile, 'rb') as fid:
             signed_data = gpg.sign_file(fid, keyid = keyid, detach=True, clearsign=False, binary=True, passphrase=key_passphrase) 
-        sigFile = APTExperimentsFile + ".sig"
+        sigFile = APTExperimentsFile + ".gpg"
         with open(sigFile, 'wb+') as fid:
             fid.write(signed_data.data)
     except:
