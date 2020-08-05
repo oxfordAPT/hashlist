@@ -1,6 +1,9 @@
 # AptListUpdater
 
-Python scripts for updating APT experiment lists 
+Python scripts for updating APT experiment lists. 
+
+## Licence 
+Available under the GNU GPLv2 licence
 
 ## Get started
 
